@@ -27,7 +27,7 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 	cfg.CodeWord = os.Getenv("CODEWORD")
-	cfg.Token = os.Getenv("TOKEN")
+	cfg.Token = os.Getenv("MTE0MzA2OTQwMjA1NzY4NzEwMA.G_xumW.usn_abFcIBs5VbUvq7NKaMK-YwJmuk8l4L9ShM")
 	cfg.Whitelisted = os.Getenv("WHITELISTED")
 	infoLog, errorLog := cfg.startLoggers()
 	cfg.ErrorLog = errorLog
